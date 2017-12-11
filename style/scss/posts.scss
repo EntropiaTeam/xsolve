@@ -1,0 +1,49 @@
+.posts-data {
+    table {
+        border: 1px solid #efefef;
+        border-collapse: collapse;
+        border-radius: 8px;
+
+        th:first-child {
+            cursor: pointer;
+        }
+        
+        tr {
+            vertical-align: top;
+            td, th {
+                text-align: left;
+                border: 1px solid #efefef;
+                padding: 10px 20px;
+            }
+        }
+        
+    }
+
+    span {
+        margin-right: 20px;
+    }
+    select {
+        height: 25px;
+    }
+}
+
+.table-tuning {
+    padding-bottom: 20px;
+
+    .items-per-page {
+        display: flex;
+        margin-bottom: 20px;
+
+        h4 {
+            margin: 5px 0;
+        }
+
+        input {
+            margin-left: 20px;
+            padding: 3px 8px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+    }
+}

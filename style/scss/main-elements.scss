@@ -1,0 +1,19 @@
+$baseFont: 'Ubuntu', sans-serif;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    padding: 20px 8%;
+}
+
+.main-page {
+    h1, h3 {
+        font-weight: 300;
+        font-family: $baseFont;
+    }
+}
+

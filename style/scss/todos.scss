@@ -1,0 +1,14 @@
+.todos-list {
+    h4 {
+        font: 300 18px $baseFont;
+    }
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+            font: 300 14px $baseFont;
+        }
+    }
+}
